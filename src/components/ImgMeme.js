@@ -90,7 +90,7 @@ const ImgMeme = () => {
         </div>
       </div>
       <div className="container-fluid mt-5 mb-2">
-        <h2 className="mt-2 mb-3">Elegí la imágen de tu meme</h2>
+        <h2 className="mt-2 mb-3">Elige la imágen de tu meme</h2>
         <div className="container-fluid w-75 d-flex gap-3 p-0">
           <select className="form-select" onChange={selectImg}>
             <option selected>Elige una opción</option>
