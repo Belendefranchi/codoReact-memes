@@ -104,7 +104,7 @@ const ImgMeme = () => {
       <div className="container-fluid mt-5 mb-2">
         <figure className="figure text-bg-light" id="descargar">
           <h2 className="figure-caption text-break text-uppercase fs-4 m-auto p-2" style={{color: colorTexto1, fontFamily: fuenteTexto1}}><strong>{texto1Meme}</strong></h2>
-          <img src={`memesImg/${imgMeme}.jpg`} className="figure-img img-fluid m-0"/>
+          <img src={`memesImg/${imgMeme}.jpg`} className="figure-img img-fluid m-0" alt="meme elegido"/>
           <h2 className="figure-caption text-break text-uppercase fs-4 m-auto p-2" style={{color: colorTexto2, fontFamily: fuenteTexto2}}><strong>{texto2Meme}</strong></h2>
         </figure>
       </div>
