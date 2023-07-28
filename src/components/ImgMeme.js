@@ -108,7 +108,7 @@ const ImgMeme = () => {
           <h2 className="figure-caption text-break text-uppercase fs-4 m-auto p-2" style={{color: colorTexto2, fontFamily: fuenteTexto2}}><strong>{texto2Meme}</strong></h2>
         </figure>
       </div>
-      <button className="btn btn-dark m-5" onClick={downloadMeme}>Descargar meme</button>
+      <button className="btn btn-dark m-5" onClick={downloadMeme}>Descarga tu meme</button>
     </div>
   )
 }
